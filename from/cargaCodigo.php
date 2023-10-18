@@ -14,29 +14,28 @@
         <div class="grupoInputsCambiar">
             <div class="imagenUsuario">
                 <img id="imgPerfile" src="images/camara.png" alt="">
-                <input type="file" name="foto" class="inputFile" style="display:none">
-            </div>
+            </div><br>
             <div class="grupoInputs">
 
                 <label class="labelInput">
-                    <input type="text" class="cambioInput" id="descripcion" placeholder="" name="descricion" required>
-                    <spam class="spanInput">Descripcion</spam>
-                </label>
+                    <spam class="spanInput">Descripcion:</spam>
+                    <span class="cambioInput" id="descripcion"></span>
+                </label><br>
 
                 <label class="labelInput">
-                    <input type="text" class="cambioInput" id="precioU" placeholder="" name="precioU" required>
-                    <spam class="spanInput">Precio Unitario</spam>
-                </label>
+                    <spam class="spanInput">Precio Unitario:</spam>
+                    <span class="cambioInput" id="precioU"></span>
+                </label><br>
 
                 <label class="labelInput">
-                    <input type="text" class="cambioInput" id="porcentaje" placeholder="" name="porcentaje" required>
-                    <spam class="spanInput">Porcentaje</spam>
-                </label>
+                    <spam class="spanInput">Porcentaje:</spam>
+                    <span class="cambioInput" id="porcentaje"></span>
+                </label><br>
 
                 <label class="labelInput">
-                    <input type="text" class="cambioInput" id="precioVenta" placeholder="" name="precioVenta" required>
-                    <spam class="spanInput">Precio de Venta</spam>
-                </label>
+                    <spam class="spanInput">Precio de Venta:</spam>
+                    <span class="cambioInput" id="precioV"></span>
+                </label><br>
 
                 <div class="btn-submit">
                     <input type="submit" class="btn-modificar" value="Modificar">

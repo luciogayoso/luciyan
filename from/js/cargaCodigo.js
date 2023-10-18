@@ -36,16 +36,15 @@ selectedModificar.addEventListener("change", function (e) {
       let descripcion = document.querySelector("#descripcion");
       let precioUnitario = document.querySelector("#precioU");
       let porcentaje = document.querySelector("#porcentaje");
-      let precioVenta = document.querySelector("#precioVenta");
+      let precioVenta = document.querySelector("#precioV");
       let foto = document.querySelector("#imgPerfile");
 
-      descripcion.value = json[0].descripcion;
-      precioUnitario.value = json[0].precioU;
-      porcentaje.value = json[0].porcentaje;
-      precioVenta.value = json[0].precioV;
+      descripcion.innerText = json[0].descripcion;
+      precioUnitario.innerText = "$" + json[0].precioU;
+      porcentaje.innerText = json[0].porcentaje + " %";
+      precioVenta.innerText = "$" + json[0].precioV;
       foto.src = "data:image/jpeg;base64," + json[0].foto;
       foto.style = "width:200px;height:200px;border-radius: 100%";
-      clave.value = json[0].clave;
     });
 });
 
